@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #121212;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.intro {
+  display: flex;
+  padding: 50px 20px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text h1, .intro-text h2 {
+  margin-bottom: 10px;
+}
+
+.intro-text h1 {
+  font-size: 2.5em;
+}
+
+.intro-text h2 {
+  font-size: 2em;
+  color: #f44336;
+}
+
+.intro-text p {
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.intro-img img {
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.service {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.service.highlight {
+  background-color: #f44336;
+}
+
+.service a {
+  display: block;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.experience div {
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 2.5em;
+  color: #f44336;
+}
+
+.projects {
+  padding: 50px 20px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 22%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #1a1a1a;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer .social-icons li {
+  margin-right: 10px;
+}
+
+footer .social-icons li a img {
+  width: 30px;
+}
